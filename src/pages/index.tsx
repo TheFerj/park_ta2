@@ -9,8 +9,6 @@ import { useUser } from "@clerk/nextjs/dist/client-boundary/hooks";
 
 
 const Home: NextPage = () => {
-  
-  const user = useUser();
 
   const {data} = api.posts.getAll.useQuery();
 
