@@ -1,11 +1,11 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+
 
 import { api } from "~/utils/api";
-import { SignInButton } from "@clerk/clerk-react";
+
 import { useUser } from "@clerk/nextjs/dist/client-boundary/hooks";
-import {SignOutButton} from "./signout";
+
 
 
 const Home: NextPage = () => {
