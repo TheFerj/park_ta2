@@ -4,9 +4,6 @@ import Head from "next/head";
 
 import { api } from "~/utils/api";
 
-import { useUser } from "@clerk/nextjs/dist/client-boundary/hooks";
-
-
 
 const Home: NextPage = () => {
 
